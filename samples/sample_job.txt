@@ -1,0 +1,65 @@
+Senior Python Developer - AI/ML Focus
+
+Company: Innovation Labs
+Location: Remote / San Francisco, CA
+Type: Full-time
+Salary: $120,000 - $160,000
+
+ABOUT US
+Innovation Labs is a cutting-edge technology company focused on building AI-powered solutions for enterprise clients. We're looking for talented developers who are passionate about machine learning and natural language processing.
+
+JOB DESCRIPTION
+We're seeking an experienced Senior Python Developer with strong expertise in AI/ML to join our growing engineering team. You'll be working on exciting projects involving natural language processing, deep learning, and scalable microservices architecture.
+
+REQUIRED SKILLS & QUALIFICATIONS
+- 5+ years of professional Python development experience
+- Strong experience with FastAPI or similar modern web frameworks
+- Expertise in machine learning libraries: TensorFlow, PyTorch, or scikit-learn
+- Experience with Natural Language Processing (NLP) and transformers
+- Proficiency with Docker and Kubernetes for containerization
+- Strong understanding of RESTful API design and microservices architecture
+- Experience with cloud platforms (AWS, GCP, or Azure)
+- Familiarity with CI/CD pipelines and DevOps practices
+- Experience with vector databases and semantic search
+- Strong knowledge of SQL and NoSQL databases
+
+PREFERRED QUALIFICATIONS
+- Experience with Sentence Transformers and Hugging Face libraries
+- Knowledge of LLMs (Large Language Models) and prompt engineering
+- Experience with Streamlit or Gradio for ML demos
+- Familiarity with MLOps and model deployment
+- Contributions to open-source projects
+- Experience with Agile/Scrum methodologies
+- Strong problem-solving and communication skills
+
+RESPONSIBILITIES
+- Design and implement AI/ML solutions for NLP problems
+- Build scalable APIs using FastAPI and microservices architecture
+- Deploy and maintain machine learning models in production
+- Collaborate with data scientists to productionize ML models
+- Optimize performance and scalability of existing systems
+- Write clean, maintainable, and well-documented code
+- Participate in code reviews and mentor junior developers
+- Stay updated with latest AI/ML trends and technologies
+
+TECHNICAL STACK
+- Languages: Python, SQL
+- Frameworks: FastAPI, PyTorch, TensorFlow, Transformers
+- Tools: Docker, Kubernetes, Git, Jenkins
+- Cloud: AWS (SageMaker, Lambda, EC2)
+- Databases: PostgreSQL, MongoDB, Redis
+- ML/NLP: Hugging Face, spaCy, NLTK, Sentence Transformers
+
+WHAT WE OFFER
+- Competitive salary and equity package
+- Flexible work arrangements (remote-friendly)
+- Health, dental, and vision insurance
+- 401(k) matching
+- Professional development budget
+- Latest tech equipment
+- Collaborative and innovative work environment
+
+HOW TO APPLY
+Send your resume and a brief cover letter explaining why you're interested in working with AI/ML technologies. Include links to your GitHub profile or portfolio projects if available.
+
+Innovation Labs is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.

@@ -1,0 +1,29 @@
+# Core Dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+streamlit==1.40.0
+python-multipart==0.0.12
+
+# AI/ML Libraries
+sentence-transformers==3.3.1
+scikit-learn==1.6.0
+transformers==4.47.0
+torch==2.5.1
+
+# NLP Libraries
+spacy==3.8.2
+nltk==3.9.1
+
+# PDF Processing
+PyPDF2==3.0.1
+pypdf==5.1.0
+
+# Utilities
+numpy==2.2.0
+pandas==2.2.3
+python-dotenv==1.0.1
+pydantic==2.10.3
+
+# Testing (optional)
+pytest==8.3.4
+httpx==0.28.1

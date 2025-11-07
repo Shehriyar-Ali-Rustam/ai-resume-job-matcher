@@ -1,0 +1,58 @@
+John Doe
+Python Developer
+Email: john.doe@email.com | Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+
+PROFESSIONAL SUMMARY
+Experienced Python Developer with 5+ years of expertise in building scalable web applications and data-driven solutions. Proficient in full-stack development, machine learning, and cloud technologies. Passionate about writing clean, maintainable code and solving complex technical challenges.
+
+TECHNICAL SKILLS
+- Programming Languages: Python, JavaScript, SQL, Bash
+- Web Frameworks: Django, Flask, HTML, CSS
+- Databases: PostgreSQL, MySQL, MongoDB
+- Machine Learning: scikit-learn, pandas, numpy, matplotlib
+- Tools & Technologies: Git, Linux, Docker, RESTful APIs
+- Cloud Platforms: AWS (EC2, S3, Lambda)
+- Other: Agile/Scrum, CI/CD, Unit Testing
+
+PROFESSIONAL EXPERIENCE
+
+Senior Python Developer | Tech Solutions Inc. | Jan 2021 - Present
+- Developed and maintained 10+ RESTful APIs using Django and Flask serving 100K+ daily requests
+- Implemented machine learning models for customer behavior prediction, improving conversion by 25%
+- Designed and optimized PostgreSQL database schemas reducing query time by 40%
+- Led a team of 3 junior developers in agile sprints
+- Automated deployment pipelines using CI/CD practices
+- Technologies: Python, Django, PostgreSQL, AWS, Docker, Machine Learning
+
+Python Developer | StartUp Co. | Jun 2019 - Dec 2020
+- Built data analysis pipelines using pandas and numpy processing 1M+ records daily
+- Created interactive dashboards for business intelligence using Flask and JavaScript
+- Integrated third-party APIs for payment processing and email notifications
+- Wrote comprehensive unit tests achieving 85% code coverage
+- Technologies: Python, Flask, MySQL, pandas, numpy, JavaScript
+
+Junior Developer | WebDev Agency | Jan 2018 - May 2019
+- Developed responsive web applications using Django and Bootstrap
+- Maintained and debugged legacy codebases
+- Collaborated with designers to implement pixel-perfect UIs
+- Participated in code reviews and pair programming sessions
+- Technologies: Python, Django, HTML/CSS, JavaScript, Git
+
+EDUCATION
+Bachelor of Science in Computer Science
+State University | 2014 - 2018
+GPA: 3.7/4.0
+
+PROJECTS
+- E-Commerce Platform: Built a full-featured online store with Django, PostgreSQL, and Stripe integration
+- Stock Price Predictor: Machine learning project using LSTM neural networks to predict stock trends
+- Portfolio Website: Personal website showcasing projects built with Flask and deployed on AWS
+
+CERTIFICATIONS
+- AWS Certified Developer - Associate
+- Python for Data Science (Coursera)
+
+LANGUAGES
+- English (Native)
+- Spanish (Intermediate)
