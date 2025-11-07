@@ -1,12 +1,19 @@
-# 🎯 AI Resume-Job Matcher
+# 🎯 AI Resume-Job Matcher - Free Online Resume Matching Tool
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8+-green.svg)
+![Python](https://img.shields.io/badge/python-3.11+-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-resume-matcher.streamlit.app)
+
+**🚀 Try it now:** [https://ai-resume-matcher.streamlit.app](https://ai-resume-matcher.streamlit.app)
 
 **100% Free, Open Source, and Privacy-Focused Resume Analysis Tool**
 
-An AI-powered web application that compares your resume with job descriptions using Natural Language Processing (NLP) and provides actionable insights to improve your job application success rate.
+An AI-powered web application that compares your resume with job descriptions using Natural Language Processing (NLP) and provides actionable insights to improve your job application success rate. Perfect for job seekers, career changers, and anyone looking to optimize their resume for ATS systems.
+
+## 🌟 Live Demo
+
+Visit [ai-resume-matcher.streamlit.app](https://ai-resume-matcher.streamlit.app) to use the tool instantly - no sign-up or installation required!
 
 ## ✨ Features
 
