@@ -334,6 +334,6 @@ If you find this project helpful, please give it a star! It helps others discove
 
 ---
 
-**Made with ❤️ by the community | 100% Free & Open Source**
+**Made with ❤️ by Shehriyar | 100% Free & Open Source**
 
 *No paid APIs • No data collection • No hidden costs*
