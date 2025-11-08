@@ -51,6 +51,11 @@ st.set_page_config(
     }
 )
 
+# Google Search Console Verification
+st.markdown("""
+    <meta name="google-site-verification" content="_SirXpoul_ZTMOkhtd_vzO0PXu-tu6fhWe4yhTWsgOU" />
+""", unsafe_allow_html=True)
+
 # Initialize session state for theme
 if 'theme' not in st.session_state:
     st.session_state.theme = 'light'
