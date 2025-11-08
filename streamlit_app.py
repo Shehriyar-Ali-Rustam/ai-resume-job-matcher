@@ -340,6 +340,46 @@ def get_custom_css():
             box-shadow: none !important;
         }
 
+        /* Fix placeholder color for dark mode */
+        .stTextArea textarea::placeholder {
+            color: #666666 !important;
+            opacity: 1 !important;
+        }
+
+        /* Star rating buttons - Dark mode */
+        section[data-testid="stSidebar"] button[kind="secondary"] {
+            background: transparent !important;
+            border: 2px solid #404040 !important;
+            color: #FFD700 !important;
+            font-size: 1.8rem !important;
+            padding: 0.5rem !important;
+            border-radius: 8px !important;
+            transition: all 0.2s ease !important;
+        }
+
+        section[data-testid="stSidebar"] button[kind="secondary"]:hover {
+            background: #1a1a1a !important;
+            border-color: #FFD700 !important;
+            transform: scale(1.1) !important;
+        }
+
+        /* Download button - Dark mode */
+        .stDownloadButton > button {
+            background: #FFFFFF !important;
+            color: #000000 !important;
+            border: none !important;
+            border-radius: 8px !important;
+            padding: 0.8rem 2rem !important;
+            font-size: 0.95rem !important;
+            font-weight: 600 !important;
+            transition: all 0.2s ease !important;
+        }
+
+        .stDownloadButton > button:hover {
+            background: #e6e6e6 !important;
+            transform: scale(1.02) !important;
+        }
+
         /* File Uploader */
         section[data-testid="stFileUploader"] label,
         [data-testid="stFileUploader"] label {
@@ -742,6 +782,46 @@ def get_custom_css():
         .stTextArea textarea:focus, .stTextInput input:focus {
             border-color: #D2D2D7 !important;
             box-shadow: none !important;
+        }
+
+        /* Fix placeholder color for light mode */
+        .stTextArea textarea::placeholder {
+            color: #999999 !important;
+            opacity: 1 !important;
+        }
+
+        /* Star rating buttons - Light mode */
+        section[data-testid="stSidebar"] button[kind="secondary"] {
+            background: transparent !important;
+            border: 2px solid #D2D2D7 !important;
+            color: #FFD700 !important;
+            font-size: 1.8rem !important;
+            padding: 0.5rem !important;
+            border-radius: 8px !important;
+            transition: all 0.2s ease !important;
+        }
+
+        section[data-testid="stSidebar"] button[kind="secondary"]:hover {
+            background: #F5F5F7 !important;
+            border-color: #FFB800 !important;
+            transform: scale(1.1) !important;
+        }
+
+        /* Download button - Light mode */
+        .stDownloadButton > button {
+            background: #000000 !important;
+            color: #FFFFFF !important;
+            border: none !important;
+            border-radius: 8px !important;
+            padding: 0.8rem 2rem !important;
+            font-size: 0.95rem !important;
+            font-weight: 600 !important;
+            transition: all 0.2s ease !important;
+        }
+
+        .stDownloadButton > button:hover {
+            background: #1a1a1a !important;
+            transform: scale(1.02) !important;
         }
 
         /* File Uploader */
