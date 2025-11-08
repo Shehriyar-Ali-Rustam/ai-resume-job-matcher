@@ -4,8 +4,8 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (update with your actual Streamlit URL after deployment)
-Sitemap: https://your-app-name.streamlit.app/sitemap.xml
+# Sitemap location
+Sitemap: https://ai-resume-job-matcher-shehriyar-ali.streamlit.app/
 
 # Crawl-delay (optional, helps prevent overload)
 Crawl-delay: 1
