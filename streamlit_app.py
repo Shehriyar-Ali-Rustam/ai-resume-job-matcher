@@ -90,6 +90,17 @@ def get_custom_css():
         footer {visibility: hidden;}
         header {visibility: hidden;}
 
+        /* Force sidebar to always be visible */
+        section[data-testid="stSidebar"] {
+            position: relative !important;
+            transform: none !important;
+        }
+
+        section[data-testid="stSidebar"][aria-expanded="false"] {
+            transform: none !important;
+            margin-left: 0 !important;
+        }
+
         /* Hero Header */
         .hero-header {
             background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
@@ -484,6 +495,17 @@ def get_custom_css():
         footer {visibility: hidden;}
         header {visibility: hidden;}
 
+        /* Force sidebar to always be visible */
+        section[data-testid="stSidebar"] {
+            position: relative !important;
+            transform: none !important;
+        }
+
+        section[data-testid="stSidebar"][aria-expanded="false"] {
+            transform: none !important;
+            margin-left: 0 !important;
+        }
+
         /* Hero Header */
         .hero-header {
             background: linear-gradient(135deg, #FFFFFF 0%, #F5F5F7 100%);
@@ -861,6 +883,32 @@ def get_custom_css():
 
 # Apply custom CSS
 st.markdown(get_custom_css(), unsafe_allow_html=True)
+
+# Force sidebar to be visible with JavaScript
+st.markdown("""
+    <script>
+    // Force sidebar to open on page load
+    window.addEventListener('load', function() {
+        const sidebar = window.parent.document.querySelector('[data-testid="stSidebar"]');
+        if (sidebar) {
+            sidebar.style.transform = 'translateX(0)';
+            sidebar.style.position = 'relative';
+            sidebar.setAttribute('aria-expanded', 'true');
+        }
+    });
+
+    // Check every second and keep sidebar open
+    setInterval(function() {
+        const sidebar = window.parent.document.querySelector('[data-testid="stSidebar"]');
+        if (sidebar && sidebar.getAttribute('aria-expanded') === 'false') {
+            const closeButton = window.parent.document.querySelector('[data-testid="collapsedControl"]');
+            if (closeButton) {
+                closeButton.click();
+            }
+        }
+    }, 1000);
+    </script>
+""", unsafe_allow_html=True)
 
 
 def get_match_score_class(score):
