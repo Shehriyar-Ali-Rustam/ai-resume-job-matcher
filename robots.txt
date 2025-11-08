@@ -1,0 +1,11 @@
+# robots.txt for AI Resume Matcher
+# Allow all search engines to crawl and index the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual Streamlit URL after deployment)
+Sitemap: https://your-app-name.streamlit.app/sitemap.xml
+
+# Crawl-delay (optional, helps prevent overload)
+Crawl-delay: 1

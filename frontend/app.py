@@ -49,51 +49,6 @@ st.set_page_config(
     }
 )
 
-# SEO Meta Tags
-st.markdown("""
-    <head>
-        <meta name="description" content="Free AI-powered resume matcher tool. Upload your resume and job description to get instant match score, skills gap analysis, and personalized recommendations. 100% free, no sign-up required.">
-        <meta name="keywords" content="resume matcher, AI resume analysis, job matching tool, resume optimizer, ATS checker, skills gap analysis, career tools, free resume checker, job application tool">
-        <meta name="author" content="Shehriyar Ali Rustam">
-        <meta name="robots" content="index, follow">
-
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="AI Resume Matcher - Free Resume Job Matching Tool">
-        <meta property="og:description" content="Match your resume with job descriptions using AI. Get instant feedback and improve your job application success rate.">
-        <meta property="og:image" content="https://ai-resume-matcher.streamlit.app/~/+/media/resume-matcher-preview.png">
-
-        <!-- Twitter -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="AI Resume Matcher - Free Resume Job Matching Tool">
-        <meta name="twitter:description" content="Match your resume with job descriptions using AI. Get instant feedback and improve your job application success rate.">
-
-        <!-- Canonical URL -->
-        <link rel="canonical" href="https://ai-resume-matcher.streamlit.app">
-
-        <!-- Schema.org structured data -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          "name": "AI Resume Matcher",
-          "description": "Free AI-powered tool to match resumes with job descriptions",
-          "url": "https://ai-resume-matcher.streamlit.app",
-          "applicationCategory": "BusinessApplication",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Shehriyar Ali Rustam"
-          }
-        }
-        </script>
-    </head>
-""", unsafe_allow_html=True)
-
 # Initialize session state for theme
 if 'theme' not in st.session_state:
     st.session_state.theme = 'light'
