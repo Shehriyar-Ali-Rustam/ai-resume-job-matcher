@@ -85,6 +85,17 @@ def get_custom_css():
         footer {visibility: hidden;}
         header {visibility: hidden;}
 
+        /* Force sidebar to always be visible */
+        section[data-testid="stSidebar"] {
+            position: relative !important;
+            transform: none !important;
+        }
+
+        section[data-testid="stSidebar"][aria-expanded="false"] {
+            transform: none !important;
+            margin-left: 0 !important;
+        }
+
         /* Hero Header */
         .hero-header {
             background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
@@ -478,6 +489,17 @@ def get_custom_css():
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
+
+        /* Force sidebar to always be visible */
+        section[data-testid="stSidebar"] {
+            position: relative !important;
+            transform: none !important;
+        }
+
+        section[data-testid="stSidebar"][aria-expanded="false"] {
+            transform: none !important;
+            margin-left: 0 !important;
+        }
 
         /* Hero Header */
         .hero-header {
