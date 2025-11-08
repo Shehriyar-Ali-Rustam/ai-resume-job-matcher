@@ -340,44 +340,56 @@ def get_custom_css():
             box-shadow: none !important;
         }
 
-        /* Fix placeholder color for dark mode */
-        .stTextArea textarea::placeholder {
+        /* Fix placeholder color for dark mode - All text areas */
+        .stTextArea textarea::placeholder,
+        textarea::placeholder {
             color: #666666 !important;
             opacity: 1 !important;
         }
 
-        /* Star rating buttons - Dark mode */
+        /* Star rating buttons - Dark mode - Better styling */
         section[data-testid="stSidebar"] button[kind="secondary"] {
-            background: transparent !important;
-            border: 2px solid #404040 !important;
+            background: #1a1a1a !important;
+            border: 2px solid #333333 !important;
             color: #FFD700 !important;
-            font-size: 1.8rem !important;
-            padding: 0.5rem !important;
-            border-radius: 8px !important;
-            transition: all 0.2s ease !important;
+            font-size: 2rem !important;
+            padding: 0.4rem 0.8rem !important;
+            border-radius: 12px !important;
+            transition: all 0.3s ease !important;
+            min-height: 50px !important;
         }
 
         section[data-testid="stSidebar"] button[kind="secondary"]:hover {
-            background: #1a1a1a !important;
+            background: #2a2a2a !important;
             border-color: #FFD700 !important;
-            transform: scale(1.1) !important;
+            transform: scale(1.05) !important;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.3) !important;
         }
 
-        /* Download button - Dark mode */
+        /* Download button - Dark mode - White background with black text */
         .stDownloadButton > button {
             background: #FFFFFF !important;
             color: #000000 !important;
-            border: none !important;
-            border-radius: 8px !important;
-            padding: 0.8rem 2rem !important;
-            font-size: 0.95rem !important;
+            border: 2px solid #FFFFFF !important;
+            border-radius: 12px !important;
+            padding: 0.9rem 2.5rem !important;
+            font-size: 1rem !important;
             font-weight: 600 !important;
-            transition: all 0.2s ease !important;
+            transition: all 0.3s ease !important;
         }
 
         .stDownloadButton > button:hover {
-            background: #e6e6e6 !important;
-            transform: scale(1.02) !important;
+            background: #f0f0f0 !important;
+            border-color: #e0e0e0 !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2) !important;
+        }
+
+        /* Force download button text to be black in dark mode */
+        .stDownloadButton > button p,
+        .stDownloadButton > button span,
+        .stDownloadButton > button div {
+            color: #000000 !important;
         }
 
         /* File Uploader */
@@ -784,44 +796,56 @@ def get_custom_css():
             box-shadow: none !important;
         }
 
-        /* Fix placeholder color for light mode */
-        .stTextArea textarea::placeholder {
-            color: #999999 !important;
+        /* Fix placeholder color for light mode - All text areas */
+        .stTextArea textarea::placeholder,
+        textarea::placeholder {
+            color: #888888 !important;
             opacity: 1 !important;
         }
 
-        /* Star rating buttons - Light mode */
+        /* Star rating buttons - Light mode - Better styling */
         section[data-testid="stSidebar"] button[kind="secondary"] {
-            background: transparent !important;
+            background: #F5F5F7 !important;
             border: 2px solid #D2D2D7 !important;
             color: #FFD700 !important;
-            font-size: 1.8rem !important;
-            padding: 0.5rem !important;
-            border-radius: 8px !important;
-            transition: all 0.2s ease !important;
+            font-size: 2rem !important;
+            padding: 0.4rem 0.8rem !important;
+            border-radius: 12px !important;
+            transition: all 0.3s ease !important;
+            min-height: 50px !important;
         }
 
         section[data-testid="stSidebar"] button[kind="secondary"]:hover {
-            background: #F5F5F7 !important;
+            background: #FFFFFF !important;
             border-color: #FFB800 !important;
-            transform: scale(1.1) !important;
+            transform: scale(1.05) !important;
+            box-shadow: 0 0 15px rgba(255, 184, 0, 0.2) !important;
         }
 
-        /* Download button - Light mode */
+        /* Download button - Light mode - Black background with white text */
         .stDownloadButton > button {
             background: #000000 !important;
             color: #FFFFFF !important;
-            border: none !important;
-            border-radius: 8px !important;
-            padding: 0.8rem 2rem !important;
-            font-size: 0.95rem !important;
+            border: 2px solid #000000 !important;
+            border-radius: 12px !important;
+            padding: 0.9rem 2.5rem !important;
+            font-size: 1rem !important;
             font-weight: 600 !important;
-            transition: all 0.2s ease !important;
+            transition: all 0.3s ease !important;
         }
 
         .stDownloadButton > button:hover {
             background: #1a1a1a !important;
-            transform: scale(1.02) !important;
+            border-color: #2a2a2a !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+        }
+
+        /* Force download button text to be white in light mode */
+        .stDownloadButton > button p,
+        .stDownloadButton > button span,
+        .stDownloadButton > button div {
+            color: #FFFFFF !important;
         }
 
         /* File Uploader */
