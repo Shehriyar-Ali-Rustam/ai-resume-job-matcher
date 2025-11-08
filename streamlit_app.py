@@ -51,10 +51,27 @@ st.set_page_config(
     }
 )
 
-# Google Search Console Verification
-st.markdown("""
-    <meta name="google-site-verification" content="_SirXpoul_ZTMOkhtd_vzO0PXu-tu6fhWe4yhTWsgOU" />
-""", unsafe_allow_html=True)
+# Google Search Console Verification - Inject into head using components
+import streamlit.components.v1 as components
+
+components.html(
+    """
+    <script>
+    // Inject Google verification meta tag into head
+    const meta = document.createElement('meta');
+    meta.name = 'google-site-verification';
+    meta.content = '_SirXpoul_ZTMOkhtd_vzO0PXu-tu6fhWe4yhTWsgOU';
+
+    // Try to inject into parent document head (Streamlit's iframe parent)
+    if (window.parent && window.parent.document && window.parent.document.head) {
+        window.parent.document.head.appendChild(meta);
+    }
+    // Also inject into current document
+    document.head.appendChild(meta);
+    </script>
+    """,
+    height=0,
+)
 
 
 # Initialize session state for theme
