@@ -3,9 +3,9 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.11+-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-resume-matcher.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://esume-job-matcher-ai-shehriyar.streamlit.app)
 
-**🚀 Try it now:** [https://ai-resume-matcher.streamlit.app](https://ai-resume-matcher.streamlit.app)
+**🚀 Try it now:** [https://esume-job-matcher-ai-shehriyar.streamlit.app](https://esume-job-matcher-ai-shehriyar.streamlit.app)
 
 **100% Free, Open Source, and Privacy-Focused Resume Analysis Tool**
 
@@ -13,7 +13,7 @@ An AI-powered web application that compares your resume with job descriptions us
 
 ## 🌟 Live Demo
 
-Visit [ai-resume-matcher.streamlit.app](https://ai-resume-matcher.streamlit.app) to use the tool instantly - no sign-up or installation required!
+Visit [esume-job-matcher-ai-shehriyar.streamlit.app](https://esume-job-matcher-ai-shehriyar.streamlit.app) to use the tool instantly - no sign-up or installation required!
 
 ## ✨ Features
 
